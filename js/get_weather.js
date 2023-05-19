@@ -1,6 +1,7 @@
 $(function () {
     $.ajax({
-        url: 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-007?Authorization=CWB-97796B05-E95A-41EC-89F6-9D0960568C9C&locationName=%E9%BE%8D%E6%BD%AD%E5%8D%80&elementName=T',
+        // url: 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-007?Authorization=CWB-97796B05-E95A-41EC-89F6-9D0960568C9C&locationName=%E9%BE%8D%E6%BD%AD%E5%8D%80&elementName=T',
+        url: 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-093?Authorization=CWB-36ED0281-3D6F-42FE-BE28-B5A7572A6032&format=JSON&locationId=F-D0047-053&locationName=%E6%9D%B1%E5%8D%80&elementName=T',
         type: "GET",
         dataType: "json",
         success: function (resource) {
